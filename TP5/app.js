@@ -1,14 +1,24 @@
 let numero1= 5
 let numero2= 12
+
 let suma
-
 suma = numero1 + numero2
-let resta
-resta = numero1 - numero2
-
 console.log('La suma es: ' + suma)
 
+let resta
+resta = numero2 - numero1
+console.log('La resta es: ' + resta)
+
+let multiplicacion 
+multiplicacion = numero2 * numero1
+console.log('La multiplicacion es: ' + multiplicacion)
+
+let division
+division = numero2 / numero1
+console.log('La division es: ' + division)
+alert('La division es: ' + division)
+
 let nombre = 'Juana'
-let apellido = 'Scelzi'
+let apellido = 'Weiz'
 
 console.log(nombre + ' ' + apellido)
