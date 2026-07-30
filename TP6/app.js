@@ -33,7 +33,7 @@ b5.onclick = function() {
     
 b6.onclick = function() {
  p.style.color = 'darkred'
- p.style.backgroundColor = 'rgb(248, 227, 230)'
+ p.style.backgroundColor = 'white'
  p.textContent = 'esto es un parrafo'
  p.style.fontFamily = 'Arial, Helvetica, sans-serif'
  p.style.fontSize = '20px'
