@@ -1,24 +1,34 @@
-let parrafo1 = document.querySelector('#parrafo1')
-let boton1 = document.querySelector('#boton1')
-let edad = 98
+let edad = 18
+let ejercicio1 = document.querySelector('#parrafo1')
+let ejecutar1 = document.querySelector("#boton1")
 
-boton1.onclick = function () {
+ejecutar1.onclick = function () {
     if (edad >= 18) {
-        parrafo1.textContent = 'Sos mayor de edad'
+        ejercicio1.textContent = " Podes ingresar "
     } else {
-        parrafo1.textContent = 'Sos menor de edad'
+        ejercicio1.textContent = " No podes ingresar "
     }
 }
 
-let parrafo2 = document.querySelector('#parrafo2')
-let boton2 = document.querySelector('#boton2')
-let nombreUsuario = 'Felipe'
+let NombreUsuario = "Nahuel"
+let ejercicio2 = document.querySelector("#parrafo2")
+let ejecutar2 = document.querySelector("#boton2")
 
-boton2.onclick = function () {
-    if( (nombreUsuario == 'Nahuel') || (nombreUsuario == 'Marcos')) {
-        parrafo2.textContent = "Bienvenido " + nombreUsuario + " ¿cómo estás?"
+ejecutar2.onclick = function () {
+    if (NombreUsuario == "Nahuel") {
+        ejercicio2.textContent = "Bienvenido Nahuel"
     } else {
-        parrafo2.textContent = 'Bienvenido '+ nombreUsuario
+        ejercicio2.textContent = "Bienvenido Usuario"
+    }
+}
+let ejercicio3 = document.querySelector("#parrafo3")
+let ejecutar3 = document.querySelector("#boton3")
+
+ejecutar3.onclick = function () {
+    if ((NombreUsuario == "Nahuel") || (NombreUsuario == "Marcos")) {
+        ejercicio3.textContent = " bienvenido " + NombreUsuario + " ¿Como estas?"
+    } else {
+        ejercicio3.textContent = "bienvenido usuario"
     }
 }
 
