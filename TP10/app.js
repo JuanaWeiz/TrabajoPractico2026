@@ -1,0 +1,164 @@
+//Actividad 1
+let utiles=["Lápiz", "Goma", "Regla", "Cuaderno", "Lapicera"];
+console.log(utiles)
+console.log(utiles[0])
+console.log(utiles[2])
+console.log(utiles[utiles.length-1])
+console.log(utiles.length)
+utiles.push("mochila")
+console.log(utiles)
+utiles.unshift("cartuchera")
+console.log(utiles)
+console.log(utiles.length)
+console.log(utiles[utiles.length])
+utiles.pop()
+console.log(utiles)
+console.log(utiles[0])
+utiles.shift()
+console.log(utiles)
+console.log(utiles.length)
+
+
+//Actividad 2
+let productos = ["Leche", "Pan", "Arroz", "Fideos", "Aceite"];
+console.log(productos)
+console.log(productos.length)
+productos.push ("Azúcar")
+productos.push ("Yerba")
+productos.push ("Café")
+console.log(productos)
+productos.unshift("Sal")
+productos.unshift("Galletitas")
+console.log(productos)
+console.log(productos.length)
+console.log(productos.pop())
+console.log(productos.pop())
+console.log (productos)
+console.log(productos.shift())
+console.log(productos)
+console.log(productos.length)
+//actividad 3
+let tecnologia = ["Teclado","Mouse","Monitor","Auriculares","Webcam","Parlantes"];
+console.log(tecnologia.indexOf("Mouse"));
+console.log(tecnologia.indexOf("Monitor"));
+console.log(tecnologia.indexOf("Webcam"));
+console.log(tecnologia.indexOf("Impresora"));
+let teclado = tecnologia.indexOf("Teclado");
+if (teclado != -1) {
+    console.log("El teclado está registrado");
+} else {
+    console.log("El teclado no está registrado");
+}
+let impresora = tecnologia.indexOf("Impresora");
+if (impresora != -1) {
+    console.log("La impresora está registrada");
+} else {
+    console.log("La impresora no está registrada");
+}
+tecnologia.push("Impresora");
+impresora = tecnologia.indexOf("Impresora");
+console.log(impresora);
+console.log(tecnologia)
+//actividad 4
+let videojuegos = ["Minecraft","Pokémon Cristal","Super Mario","The Legend of Zelda","Sonic"];
+console.log(videojuegos)
+console.log(videojuegos.length)
+videojuegos.push  ("Animal Crossing")
+videojuegos.push  ("Pokémon Rojo")
+console.log(videojuegos)
+videojuegos.unshift("Tetris")
+videojuegos.unshift("Pac-Man")
+console.log(videojuegos)
+console.log(videojuegos.indexOf("Pokémon Cristal"));
+console.log(videojuegos.indexOf("Sonic"));
+console.log(videojuegos.indexOf("FIFA"));
+console.log(videojuegos.pop());
+console.log(videojuegos.shift());
+console.log(videojuegos)
+console.log(videojuegos.length)
+//actividad 5
+let estudiantes = ["Martina","Lucas","Sofía","Tomás","Valentina"];
+console.log(estudiantes)
+console.log(estudiantes.length)
+estudiantes.push("Agustín")
+estudiantes.push("Camila")
+console.log(estudiantes)
+estudiantes.unshift("Bruno")
+console.log(estudiantes)
+console.log(estudiantes.length)
+console.log(estudiantes.indexOf("Sofía"));
+console.log(estudiantes.indexOf("Camila"));
+console.log(estudiantes.indexOf("Federico"));
+console.log(estudiantes.shift());
+console.log(estudiantes.pop());
+console.log(estudiantes)
+console.log(estudiantes.length)
+//actividad 6
+let tareas = ["Estudiar","Hacer la tarea","Ordenar la habitación","Comprar alimentos"];
+console.log(tareas)
+console.log(tareas.length)
+tareas.push("Pasear al perro")
+tareas.push("Preparar la cena")
+console.log(tareas)
+tareas.unshift("Entregar un trabajo")
+console.log(tareas)
+console.log(tareas.indexOf("Estudiar"));
+console.log(tareas.indexOf("Preparar la cena"));
+console.log(tareas.indexOf("Lavar el auto"));
+console.log(tareas.shift())
+console.log(tareas.pop())
+tareas.push("Leer un libro")
+tareas.unshift("Hacer ejercicio")
+console.log(tareas)
+console.log(tareas.length)
+//actividad 7
+let peliculas = ["Toy Story","Shrek","Buscando a Nemo","Los Increíbles","Ratatouille"];
+console.log (peliculas)
+console.log(peliculas.length)
+peliculas.push("Cars")
+peliculas.push("Monsters, Inc.")
+console.log(peliculas)
+peliculas.unshift("Intensamente")
+peliculas.unshift("Coco")
+console.log(peliculas)
+console.log(peliculas.indexOf("Shrek"));
+console.log(peliculas.indexOf("Coco"));
+console.log(peliculas.indexOf("Frozen"));
+let buscar = peliculas.indexOf("Cars");
+if (buscar != -1) {
+    console.log("Cars está en la lista");
+} else {
+    console.log("Cars no está en la lista");
+}
+console.log(peliculas.pop())
+console.log(peliculas.shift())
+peliculas.unshift ("Up")
+console.log(peliculas.indexOf("Up"));
+console.log(peliculas)
+console.log(peliculas.length)
+//actividad 8
+let tienda = ["Celular","Notebook","Tablet","Teclado","Mouse"];
+console.log(tienda)
+console.log(tienda.length)
+tienda.push("Monitor")
+tienda.push("Impresora")
+tienda.unshift("Cámara web")
+tienda.unshift("Micrófono")
+console.log(tienda)
+console.log(tienda.length)
+console.log(tienda.indexOf("Notebook"));
+console.log(tienda.indexOf("Micrófono"));
+console.log(tienda.indexOf("Parlante"));
+console.log(tienda.pop())
+console.log(tienda.shift())
+console.log(tienda)
+tienda.push("Parlantes")
+tienda.unshift("Auriculares")
+console.log(tienda)
+console.log(tienda.indexOf("Parlantes"));
+console.log(tienda.indexOf("Auriculares"));
+console.log(tienda.indexOf("Celular"));
+console.log(tienda.pop())
+console.log(tienda.shift())
+console.log(tienda)
+console.log (tienda.length)
